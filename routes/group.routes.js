@@ -1,5 +1,5 @@
 const express = require('express');
-const { createGroup, getGroups } = require('../controllers/groupController');
+const { createGroup, getGroups } = require('../controllers/group.controller');
 const router = express.Router();
 
 router.post('/create', createGroup);
